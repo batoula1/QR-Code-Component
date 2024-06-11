@@ -1,0 +1,55 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: grey;
+}
+
+#heading {
+    color: var(--Dark-Navy, #1F314F);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Heading */
+    font-family: Outfit;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#qr {
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+    background: #2C7DFA;
+}
+#card {
+    width: 320px;
+    height: 497px;
+    border-radius: 20px;
+    background: var(--White, #FFF);
+    box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 16px;
+    justify-content: center;
+}
+
+#info {
+    color: var(--Grey, #7D889E);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Body */
+    font-family: Outfit;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.188px;
+}
